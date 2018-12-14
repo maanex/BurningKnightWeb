@@ -1,2 +1,4 @@
 # BurningKnightWeb
-see https://rexcellentgames.com/
+See https://rexcellentgames.com/
+
+Preview here: https://maanex.github.io/BurningKnightWeb/
