@@ -1,4 +1,4 @@
-function shopImage(element){
+function showImage(element){
     if(element){
         var img = el(element).src;
         el('fullscreenImg').src = img;
