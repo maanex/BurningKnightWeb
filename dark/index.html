@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Burning Knight</title>
+  </head>
+
+  <body>
+    <div id="imgShow" onclick="showImage()">
+      <img id="fullscreenImg" src="">
+    </div>
+
+    <div id="top">
+      <div id="header">
+        <ul>
+          <li><a href="https://store.steampowered.com/app/268910/Cuphead/?curator_clanid=1370293">Steam</a></li>
+          <li><a href="https://egordorichev.itch.io/curse-of-the-arrow">Itch.io</a></li>
+          <li style="float: right;"><a href="https://rexcellentgames.com/">Rexcellent Games</a></li>
+          <li style="float: right;"><a href="https://twitter.com/rexcellentgames">Twitter</a></li>
+        </ul>
+      </div>
+
+      <img class="logo" src="logo.png" alt="Burning Knight" draggable="false">
+      <p id="subtitle">
+        <script>
+          var subtitles = [
+              "Being a small gobbo again...",
+              "Subtitle 2",
+              "Yeah I'm not the person to think about subtitles, ok?"
+          ]
+          document.write(subtitles[Math.floor(Math.random() * subtitles.length)]);
+        </script>
+      </p>
+      <div class="break"></div>
+
+      <div id="trailercont">
+        <iframe src="https://www.youtube.com/embed/cV5AIz-ECBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" id="trailer" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="content">
+      <div class="container">
+        <h1>Get Burning Knight now!</h1>
+        <div id="buy">
+          <iframe src="http://store.steampowered.com/widget/851150/" frameborder="0" width="49%" height="190" class="steam"></iframe>
+          <iframe frameborder="0" src="https://itch.io/embed/213104?bg_color=1a1932&amp;fg_color=ffffff&amp;link_color=657392&amp;border_color=424c6e" class="itch" height="167"></iframe>
+        </div>
+
+        <h1>Screenshots</h1>
+        <div id="screenshots">
+          <div class="screenshotrow">
+            <img id="si1" class="screenshot img1" src="1.png" alt="Screenshot" draggable="false" onclick="showImage('si1')">
+            <img id="si2" class="screenshot img2" src="2.png" alt="Screenshot" draggable="false" onclick="showImage('si2')">
+          </div>
+          <div class="screenshotrow">
+            <img id="si3" class="screenshot img1" src="3.png" alt="Screenshot" draggable="false" onclick="showImage('si3')">
+            <img id="si4" class="screenshot img2" src="4.png" alt="Screenshot" draggable="false" onclick="showImage('si4')">
+          </div>
+        </div>
+
+        <h1>Soundtrack</h1>
+        <div id="music">
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/546253320&color=%231a1932&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
+
+        <!--h1>Rexcellent Games</h1>
+        <div id="team">
+          <div class="ppl">
+            <a href="https://twitter.com/egordorichev">Egor Dorichev</a><br>
+            <a href="https://twitter.com/MateCziner">Mate Cziner</a><br>
+            <a href="https://twitter.com/BibikiGL">José Ramón García</a><br>
+            <a href="https://twitter.com/rexcellentgames">Rexcellent Games</a>
+          </div>
+          <img class="rlogo" href="#yo" src="rexcellent_logo.svg">
+        </div-->
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="legal">Copyright &copy; 2018 - 2019 Rexcellent Games</div>
+      <div id="links"><a href="https://rexcellentgames.com/">Website</a> &bull; <a href="https://twitter.com/rexcellentgames">Twitter</a> &bull; <a href="https://discord.gg/xhNbrtx">Discord</a></div>
+      <div style="height: 30px"></div>
+      <div id="credits">Website made by <a href="https://twitter.com/egordorichev" target="_blank">Egor Dorichev</a> & <a href="https://twitter.com/Maanex_" target="_blank">Maanex</a></div>
+
+      <a id="granny" href=""><img src="granny.png"></a>
+    </div>
+  </body>
+</html>
