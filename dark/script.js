@@ -7,3 +7,7 @@ function showImage(element){
 }
 
 function el(id) { return document.getElementById(id); }
+
+window.onload = () => {
+    el('granny').onclick = () => alert('We can put a secret or smth here ;)');
+}

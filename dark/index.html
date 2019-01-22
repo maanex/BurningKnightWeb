@@ -24,7 +24,16 @@
       </div>
 
       <img class="logo" src="logo.png" alt="Burning Knight" draggable="false">
-      <p id="subtitle">Be a small dude again</p>
+      <p id="subtitle">
+        <script>
+          var subtitles = [
+              "Being a small gobbo again...",
+              "Subtitle 2",
+              "Yeah I'm not the person to think about subtitles, ok?"
+          ]
+          document.write(subtitles[Math.floor(Math.random() * subtitles.length)]);
+        </script>
+      </p>
       <div class="break"></div>
 
       <div id="trailercont">
@@ -75,6 +84,8 @@
       <div id="links"><a href="https://rexcellentgames.com/">Website</a> &bull; <a href="https://twitter.com/rexcellentgames">Twitter</a> &bull; <a href="https://discord.gg/xhNbrtx">Discord</a></div>
       <div style="height: 30px"></div>
       <div id="credits">Website made by <a href="https://twitter.com/egordorichev" target="_blank">Egor Dorichev</a> & <a href="https://twitter.com/Maanex_" target="_blank">Maanex</a></div>
+
+      <a id="granny" href=""><img src="granny.png"></a>
     </div>
   </body>
 </html>

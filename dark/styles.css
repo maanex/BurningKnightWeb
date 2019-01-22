@@ -1,6 +1,6 @@
 :root{
-  --bg1: #2a2f4e;
-  --bg2: #1f233d;
+  --bg1: #000000;
+  --bg2: #0d0e14;
   --accent: #e15763;
 }
 
@@ -86,7 +86,7 @@ html, body {
   background-image: url(bg.png);
   background-position: 50% 50%;
   background-size: cover;
-  border-bottom: 2px solid #8888882d;
+  border-bottom: 5px solid #0e1118;
 }
 
 /**/
@@ -134,8 +134,7 @@ li a:hover {
 
 /**/
 
-.logo {
-  height: auto;
+.logo {height: auto;
   width: auto;
   max-width: 820px;
   image-rendering: pixelated;
@@ -289,17 +288,19 @@ li a:hover {
 
 #footer{
   border-top: 1px solid var(--accent);
-  background: #161627;
+  background: #000000;
   padding: 30px 0;
   margin: 0 !important;
   width: 100%;
   text-align: center;
+  overflow: hidden;
+  position: relative;
 }
 
 #footer,
 #footer>*,
 #footer>*>*{
-  color: #ffffffaa;
+  color: #ffffff70;
   font-family: 'Montserrat', 'Roboto', sans-serif;
   font-size: 13pt;
   margin: 5px 0;
@@ -307,6 +308,12 @@ li a:hover {
 
 #footer>*>a:hover{ color: #ffffffdd; }
 #credits, #credits>*{
-  color: #515179;
+  color: #74748f8a;
   font-size: 11pt;
+}
+
+#footer>#granny{
+  position: absolute;
+  left: 15vw;
+  bottom: 0;
 }
